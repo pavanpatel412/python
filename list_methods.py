@@ -1,6 +1,6 @@
 """ program describing
     written on 06-09-23
-    written by Nani
+    written by pawan
 """
 # LIST :- TO STROE ACOOLECTION OF ITEMS IN A SINGLE VARIABLE
 # LIST ATTRIBUTES :-
