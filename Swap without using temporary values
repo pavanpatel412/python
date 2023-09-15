@@ -1,0 +1,5 @@
+#swap the given values without using temporary veriable
+x=10
+y=20
+x,y=y,x
+print ("swaped values of x,y are :",x,y)
