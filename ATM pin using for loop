@@ -1,0 +1,16 @@
+
+for counter in range(3):
+    pin =int(input("enter the pin"))
+    if pin==4566:
+        print("welcome")
+        break
+    else:
+        pin =  int(input("continue to press 1:"))
+        if pin ==1:
+            
+            continue
+            break
+        else:
+            print("entered pin no is wrong")
+            print("pin is blocked")
+            break 
