@@ -1,0 +1,12 @@
+number = [1,2,3,4,5,67,5]
+number.insert(-20,"name")
+print("insert (-20,name) it will add the begining :",number)
+number.append(3)
+print("append 3 means it will add the end of the list: ",number)
+print("count the particlular elemet in list:",number.count(5))
+print("elements in the list are",number)
+print("pop some index will be remove particular index element :",number.pop(6))
+print("elements in the list ;",number)
+print("the index of five is is :",number.index(5))
+print("slicing between the some indexes :",number[1:6])
+print("reverse index is :",number[:-3])
