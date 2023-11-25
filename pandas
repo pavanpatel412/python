@@ -1,0 +1,24 @@
+import pandas as pd
+mySeries = pd.Series([1,2,3,4],[3,4,5,6])
+mySeries5 =pd.Series([1,2,3,4],[3,4,5,6])
+print("mySeries is:\n",mySeries)
+mySeries1 = pd.Series(["pavan","kumar","raju"])#they keys will be 0 to n numbers by defualt
+print("mySeries1 is:\n",mySeries1)
+mySeries2 = pd.Series(["pavan","kumar","raju"],index=([5,7,9]))#index can represent as keys:
+print("mySeries2 is:\n",mySeries2)
+mySeries3 = pd.Series(["pavan","kumar","raju"],index=(["p","k","r"]))#index can represent as keys:
+print("mySeries2 is:\n",mySeries3)
+print("the reversing of the series is:\n",mySeries2[::-1])
+mydct = {1:"name",2:"age",3:"number"}
+print("mydct is :\n",mydct)
+dctseries = pd.Series((mydct))
+print("dctseries is:\n",dctseries)
+#multiplication of two series
+print("multiplication of two series;\n",mySeries1*mySeries5)
+#three methods and 5 attribuets have series..
+#we acsess values using index
+
+mydataframe = pd.DataFrame()
+print("this is empty dataframe:\n",mydataframe)
+lestdataframe = pd.DataFrame([3,4,7],["one","two","three"])
+print("the list dataframe is:\n",lestdataframe)
