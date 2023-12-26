@@ -15,7 +15,7 @@ summation = sum(range(1,102))
 print(summation)
 # n a function, how do you create a global variable?
 # global variable is applicabele to any function by ur requirements....
-# for ex
+# for exmple..
 name = "pavan"
 def modify_name():
     name = "raju"
@@ -24,3 +24,10 @@ def original_name():
     print(name)
 modify_name()
 original_name()
+# using yeild...
+def creating_gen(index):  
+    months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']  
+    yield months[index]  
+    yield months[index+2]  
+next_month = creating_gen(7)  
+print(next(next_month), next(next_month))  
